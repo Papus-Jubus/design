@@ -1,0 +1,13 @@
+.container{
+	
+-fx-background-color: rgb(19, 5, 66);
+}
+
+.LeftPane{
+	-fx-background-color: rgb(19, 5, 66);
+}
+
+.rightPane{
+	-fx-background-color:rgb(252, 242, 8s);
+}
+

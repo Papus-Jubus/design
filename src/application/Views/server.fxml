@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="519.0" prefWidth="707.0" styleClass="container" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16">
+   <children>
+      <BorderPane layoutY="11.0" prefHeight="519.0" prefWidth="707.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <VBox alignment="TOP_CENTER" prefHeight="358.0" prefWidth="146.0" styleClass="container" stylesheets="@../css/server.css" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Text fill="#eee9e9" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Citius Altius Forius" wrappingWidth="149.13671875">
+                           <font>
+                              <Font name="Bodoni MT Italic" size="17.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="BOTTOM_CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="119.0" prefWidth="146.0">
+                     <children>
+                        <ImageView fitHeight="94.0" fitWidth="124.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Pictures/Camera%20Roll/server2.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <opaqueInsets>
+                        <Insets top="-50.0" />
+                     </opaqueInsets>
+                  </HBox>
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <HBox alignment="CENTER" prefHeight="40.0" prefWidth="604.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="TDSI     SERVER" wrappingWidth="92.13671875" />
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <TableView prefHeight="379.0" prefWidth="432.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+                  <TableColumn prefWidth="75.0" text="C2" />
+                  <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+         </center>
+         <right>
+            <VBox prefHeight="352.0" prefWidth="126.0" styleClass="container" stylesheets="@../css/server.css" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" styleClass="container" stylesheets="@../css/server.css" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
